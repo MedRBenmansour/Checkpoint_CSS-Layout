@@ -78,8 +78,6 @@ html {
     font-size: 20px;
 }
 
-    
-
     .col-3{
         display: inline;
         width: 30%;
@@ -101,6 +99,9 @@ html {
         color: black;
         padding: 40px 10px 40px 10px;
         font-size: 20px;
+    }
+    .troisieme >div{
+        margin-bottom: 10px;
     }
     .col-3{
         display: inline;
@@ -125,4 +126,8 @@ select{
     background-color: transparent;
     color: aliceblue;
     border: none;
+}
+.main-footer{
+    border-top: 1px solid;
+    text-align: center;
 }
