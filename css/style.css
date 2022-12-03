@@ -121,3 +121,8 @@ html {
 #clinic{
     background-color: #747474;
 }
+select{
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+}
