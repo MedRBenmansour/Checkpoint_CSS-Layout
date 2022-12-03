@@ -22,7 +22,7 @@ html {
     width: 100%;
     padding: 0 10% 0 10%;
     margin: auto;
-    background-color: aquamarine;
+    background-color: rgb(221, 229, 226);
 }
 .logo{
     float: left;
@@ -79,12 +79,19 @@ html {
 }
 
     .col-3{
-        display: inline;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
         width: 30%;
         padding: 10px 10px 10px 10px;
         background-color: #00ccb1;
         color: aliceblue;
         border-radius: 15px;
+        height: 400px;
+        margin:0 20px;
+    }
+    .doctor2{
+        flex: 3;
     }
 }   
 @media screen and (max-width: 600px){
@@ -92,7 +99,6 @@ html {
         display: flex;
         flex-direction: column;
         align-items:center;
-        
         width: 80%;
         margin: auto;
         background-color: rgb(245, 252, 250);
@@ -104,7 +110,8 @@ html {
         margin-bottom: 10px;
     }
     .col-3{
-        display: inline;
+        display: flex;
+        flex-direction: column;
         width: auto;
         margin: auto;
         padding: 10px 10px 10px 10px;
@@ -122,10 +129,13 @@ html {
 #clinic{
     background-color: #747474;
 }
+
 select{
+    
     background-color: transparent;
     color: aliceblue;
     border: none;
+    
 }
 .main-footer{
     border-top: 1px solid;
